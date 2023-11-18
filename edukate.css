@@ -98,7 +98,7 @@
 
 .middle-container{
     border: 1px solid black;
-    height: 200vh;
+    height: 150vh;
     display: flex;
     flex-direction: row;
     padding-left: 7%;
@@ -127,6 +127,14 @@
     font-size: 48px;
     width: 80%;
     margin-top: 0;
+}
+
+.four-women{
+    width: 100%;
+}
+
+.text-1-container{
+    width: 95%;
 }
 
 .right-side{
@@ -247,9 +255,9 @@
     opacity: 0.6;
 }
 
-.categories-box{
+.cat-con{
     background-color: white;
-    margin-top: 10%;
+    height: 67.3vh;
 }
 
 .categories-container{
@@ -279,6 +287,96 @@
 }
 
 .num150-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.web-development-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(194, 194, 194);
+}
+
+.web-dev{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.num131-button{
+background-color: blue;
+color: white;
+border: none;
+border-radius: 10px;
+}
+
+.online-marketing-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(194, 194, 194);
+}
+
+.online-mark{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    color: rgb(8, 8, 119);
+}
+
+.num78-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.keyword-research-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(194, 194, 194);
+}
+
+.keyword-re{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.num56-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.email-marketing-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-mark{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.num98-button{
     background-color: blue;
     color: white;
     border: none;
