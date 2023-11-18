@@ -1,0 +1,9 @@
+ .body{
+    height: 4000px;
+    margin: 0px;
+}
+
+.middle-section p{
+    font-weight: 500;
+    margin-right: 15px;
+}

@@ -1,0 +1,286 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section{
+    background-color: lightblue;
+    width: 380px;
+    display: flex;
+    align-items: center;
+}
+
+.middle-section{
+    background-color: lightpink;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35px;
+    margin-left: 75px;
+}
+
+.right-section{
+    background-color: lightblue;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join-button{
+
+}
+
+.background-picture{
+    position: relative;
+    border: 1px solid black;
+}
+
+.back-pic{
+    width: 100%;
+    height: 100%;
+}
+
+.color{
+    background-color: rgba(25, 25, 161, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.course-text{
+    color: white;
+    font-family: roboto, arial;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 0;
+}
+
+.home-text{
+    color: white;
+    font-family: times new roman;
+    font-size: 12px;
+    text-align: center;
+}
+
+.search-bar{
+    font-family: times new roman;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.course-button{
+    height: 38px;
+    width: 8%;
+}
+
+.keyword{
+    height: 34px;
+    width: 17%;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.search-button{
+    height: 38px;
+    width: 8%;
+    background-color: rgb(235, 11, 11);
+    border: none;
+    color: white;
+}
+
+.middle-container{
+    border: 1px solid black;
+    height: 200vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 10%;
+}
+
+.left-side{
+    border: 1px solid red;
+    width: 70%;
+}
+
+.course-detail{
+    font-family: arial;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.course-detail-span{
+    color: rgb(187, 9, 9);
+    text-decoration: underline;
+}
+
+.web-design-text{
+    font-family: arial;
+    font-size: 48px;
+    width: 80%;
+    margin-top: 0;
+}
+
+.right-side{
+    border: 1px solid green;
+    width: 30%;
+    background-color: rgb(15, 15, 219);
+}
+
+.course-feature{
+    color: white;
+    font-family: arial;
+    font-size: 28px;
+    margin-left: 6%;
+}
+
+.instructor-container{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+
+}
+
+.instructor{
+    color: white;
+}
+
+.ins{
+    margin-left: 6%;
+    margin-right: 50%;
+}
+
+.rating-container{
+    color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.rate{
+    margin-left: 6%;
+    margin-right: 59%;
+}
+
+.lectures-container{
+    color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.lect{
+    margin-left: 6%;
+    margin-right: 65%;
+}
+
+.duration-container{
+    color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.dura{
+    margin-left: 6%;
+    margin-right: 52%;
+}
+
+.skill-level-container{
+    color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.skill-level{
+    margin-left: 6%;
+    margin-right: 52%;
+}
+
+.language-container{
+    color: white;
+}
+
+.language{
+    margin-left: 6%;
+    margin-right: 55%;
+}
+
+.course-price-container{
+    color: white;
+}
+
+.course-p{
+    font-family: arial;
+    font-size: 20px;
+    margin-left: 6%;
+    margin-top: 12%;
+}
+
+.enroll-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.enroll{
+    background-color: red;
+    color: white;
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 33%;
+    padding-right: 33%;
+    cursor: pointer;
+}
+
+.enroll:hover{
+    opacity: 0.9;
+}
+
+.enroll:active{
+    opacity: 0.6;
+}
+
+.categories-box{
+    background-color: white;
+    margin-top: 10%;
+}
+
+.categories-container{
+    padding-top:5%;
+}
+
+.cate{
+    font-family: arial;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.web-design-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(194, 194, 194);
+}
+
+.web-d{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.num150-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
