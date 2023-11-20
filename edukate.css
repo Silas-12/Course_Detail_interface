@@ -177,6 +177,10 @@
     margin-right: 59%;
 }
 
+.num45{
+    font-size: small;
+}
+
 .lectures-container{
     color: white;
     border-bottom-width: 1px;
@@ -381,4 +385,116 @@ border-radius: 10px;
     color: white;
     border: none;
     border-radius: 10px;
+}
+
+.down-section{
+    border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.left{
+    border: 1px solid rgb(211, 21, 53);
+    width: 70%;
+    background-color: blue;
+}
+
+.related-container{
+    margin-top: 2%;
+    margin-left: 0;
+}
+
+.rate{
+    margin-left: 0;
+    font-family: arial;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.pic2-3-container{
+    display: inline-block;
+    background-color: red;
+    border: 2px solid yellow;
+    width: 45%;
+    height: 65vh;
+    position: relative;
+    margin-left: 20px;
+}
+
+.pic2-edit{
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+}
+
+.web-d-container{
+    position: absolute;
+    top: 65%;
+    border: 1px solid black;
+}
+
+.web-d-edit{
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.left-button{
+    position: absolute;
+    top: 65%;
+    left: -6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(30, 30, 194);
+    color: white;
+}
+
+.pp{
+    position: absolute;
+    left: 0;
+    top: 86%;
+    width: 98%;
+    color: white;
+    border: 2px solid red;
+}
+
+.doe-b{
+    display: inline-block;
+    margin-right: 44%;
+    margin-left: 6%;
+}
+
+.num4{
+    display: inline-block;
+}
+
+.num250{
+    font-size: smaller;
+}
+
+.right-button{
+   position: absolute;
+    top: 65%;
+    right: -6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(30, 30, 194);
+    color: white; 
+}
+
+.right{
+    border: 1px solid green;
+    width: 30%;
 }
